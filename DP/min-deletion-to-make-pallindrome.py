@@ -28,3 +28,22 @@ def minDeletions(X, i, j, lookup):
  
     # return the subproblem solution from the dictionary
     return lookup[key]
+
+class Solution:
+    def minInsertions(self, S: str) -> int:
+        n = len(S)
+        dp = [[-1]*n for _ in range(n)]
+        def ok(s,e):
+            if s>=e:
+                return 0
+            if dp[s][e]!=-1:
+                return dp[s][e]
+            if S[s]==S[e]:
+                dp[s][e]= ok(s+1,e-1)
+            else:
+                dp[s][e] = 1+ min(ok(s,e-1),ok(s+1,e))
+            return dp[s][e]
+        
+        return ok(0,n-1)
+            
+            
