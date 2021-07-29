@@ -1,5 +1,5 @@
-Arrays :
-
+## Arrays :
+```
 Subarray with given sum
 Count the triplets
 Kadane’s Algorithm
@@ -23,7 +23,7 @@ Convert array into Zig-Zag fashion
 Last Index of 1
 Spirally traversing a matrix
 Largest Number formed from an Array
-
+```
 
 Solved the above? Go for some more Questions
 
