@@ -27,8 +27,8 @@ Largest Number formed from an Array
 
 Solved the above? Go for some more Questions
 
-String :
-
+## String :
+```
 Reverse words in a given string
 Permutations of a given string
 Longest Palindrome in a String
@@ -43,9 +43,9 @@ Implement Atoi
 Implement strstr
 Longest Common Prefix
 Solved the above? Go for some more Questions
-
-Linked List :
-
+```
+## Linked List :
+```
 Finding middle element in a linked list
 Reverse a linked list
 Rotate a Linked List
@@ -64,8 +64,9 @@ Implement Queue using Linked List
 Implement Stack using Linked List
 Given a linked list of 0s, 1s and 2s, sort it
 Delete without head pointer
-Stack and Queue :
-
+```
+## Stack and Queue :
+```
 Parenthesis Checker
 Next larger element
 Queue using two Stacks
@@ -76,8 +77,9 @@ Circular tour
 First non-repeating character in a stream
 Rotten Oranges
 Maximum of all subarrays of size k
-Tree :
-
+```
+## Tree :
+```
 Print Left View of Binary Tree
 Check for BST
 Print Bottom View of Binary Tree
@@ -94,10 +96,11 @@ Diameter of a Binary Tree
 Number of leaf nodes
 Check if given Binary Tree is Height Balanced or Not
 Serialize and Deserialize a Binary Tree
+```
 Solved the above? Go for some more Questions
 
-Heap :
-
+## Heap :
+```
 Find median in a stream
 Heap Sort
 Operations on Binary Min Heap
@@ -105,17 +108,19 @@ Rearrange characters
 Kth largest element in a stream
 Merge K sorted linked lists
 Kth largest element in a stream
-Recursion :
+```
+## Recursion :
 
 
-
+```
 Flood fill Algorithm
 Number of paths
 Combination Sum – Part 2
 Special Keyboard
 Josephus problem
-Hashing :
-
+```
+## Hashing :
+```
 Relative Sorting
 Sorting Elements of an Array by Frequency
 Largest subarray with 0 sum
@@ -135,8 +140,9 @@ Uncommon characters
 Smallest window in a string containing all the characters of another string
 First element to occur k times
 Check if frequencies can be equal
-Graph :
-
+```
+## Graph :
+```
 Depth First Traversal
 Breadth First Traversal
 Detect cycle in undirected graph
@@ -153,8 +159,9 @@ Circle of Strings
 Floyd Warshall
 Alien Dictionary
 Snake and Ladder Problem
-Greedy :
-
+```
+## Greedy :
+```
 Activity Selection
 N meetings in one room
 Coin Piles
@@ -167,8 +174,10 @@ Huffman Decoding
 Minimum Spanning Tree
 Shop in Candy Store
 Geek collects the balls
-Dynamic Programming :
+```
 
+## Dynamic Programming :
+```
 Minimum Operations
 Max length chain
 Minimum number of Coins
@@ -189,8 +198,9 @@ Count number of ways to cover a distance
 Egg Dropping Puzzle
 Optimal Strategy for a Game
 Shortest Common Supersequence
-Divide and Conquer :
-
+```
+## Divide and Conquer :
+```
 Find the element that appears once in sorted array
 Search in a Rotated Array
 Binary Search
@@ -198,15 +208,17 @@ Sum of Middle Elements of two sorted arrays
 Quick Sort
 Merge Sort
 K-th element of two sorted Arrays
-Backtracking :
-
+```
+## Backtracking :
+```
 N-Queen Problem
 Solve the Sudoku
 Rat in a Maze Problem
 Word Boggle
 Generate IP Addresses
-Bit Magic :
-
+```
+## Bit Magic :
+```
 Find first set bit
 Rightmost different bit
 Check whether K-th bit is set or not
@@ -221,8 +233,10 @@ Longest Consecutive 1’s
 Sparse Number
 Alone in a couple
 Maximum subset XOR
-Some More Questions on Arrays :
+```
 
+## Some More Questions on Arrays :
+```
 Find Missing And Repeating
 Maximum Index
 Consecutive 1’s not allowed
@@ -232,8 +246,9 @@ Nuts and Bolts Problem
 Boolean Matrix Problem
 Smallest Positive missing number
 Jumping Caterpillars
-Some More Questions on Strings :
-
+```
+## Some More Questions on Strings :
+```
 Most frequent word in an array of strings
 CamelCase Pattern Matching
 String Ignorance
@@ -247,10 +262,12 @@ Repeated Character
 Remove common characters and concatenate
 Geek and its Colored Strings
 Second most repeated string in a sequence
-Some more Questions on Trees :
-
+```
+## Some more Questions on Trees :
+```
 Mirror Tree
 Longest consecutive sequence in Binary tree
 Bottom View of Binary Tree
 Lowest Common Ancestor in a Binary Tree
 Binary to DLL
+```
