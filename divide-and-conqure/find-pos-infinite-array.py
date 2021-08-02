@@ -5,7 +5,7 @@
 def binary_search(arr,l,r,x):
 
 	if r >= l:
-		mid = l+(r-l)/2
+		mid = (l+r)//2
 
 		if arr[mid] == x:
 			return mid
@@ -28,21 +28,24 @@ def findPos(a, key):
 	l, h, val = 0, 1, arr[0]
 
 	# Find h to do binary search
-	while val < key:
-		l = h		 #store previous high
-		h = 2*h		 #double high index
-		val = arr[h]	 #update new val
-
+	try:
+		while val < key:
+			l = h		 #store previous high
+			h = 2*h		 #double high index
+			val = arr[h]	 #update new val
+	except:
+		h = len(a)-1
+		# print(l,h)
 	# at this point we have updated low and high indices,
 	# thus use binary search between them
 	return binary_search(a, l, h, key)
 
 # Driver function
 arr = [3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170]
-ans = findPos(arr,10)
+ans = findPos(arr,1600)
 if ans == -1:
-	print "Element not found"
+	print("Element not found")
 else:
-	print"Element found at index",ans
+	print("Element found at index",ans)
 
 # This code is contributed by __Devesh Agrawal__
