@@ -21,3 +21,22 @@ def LIS(A):
  
     # return longest increasing subsequence (having maximum length)
     return max(L)
+
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+    # lis = [1]*len(nums)
+    # for i in range(1,len(nums)):
+    #     for j in range(0,i):
+    #         if nums[i]>nums[j]:
+    #             lis[i]=max(lis[i],1+lis[j])
+    # return max(lis)
+    lis = []
+    for num in nums:
+        i = bisect_left(lis,num)
+        if i == len(lis):
+            lis.append(num)
+        else:
+            lis[i] = num
+        # print(lis)
+    return len(lis)
+        

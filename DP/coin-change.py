@@ -6,11 +6,8 @@ def count(S, N):
     T[0] = 1
  
     for i in range(len(S)):
-        j = S[i]
-        while j <= N:
+        for j in range(S[i],N+1):
             T[j] += T[j - S[i]]
-            j = j + 1
- 
     return T[N]
  
  
