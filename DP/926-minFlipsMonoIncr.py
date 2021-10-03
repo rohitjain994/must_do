@@ -9,3 +9,4 @@ class Solution:
             # 1 before j to be flipped + 0 after j to be flipped
             res = min(res,p[j]+n-j-(p[n]-p[j]))
         return res
+        
